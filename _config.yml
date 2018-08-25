@@ -1,0 +1,6 @@
+baseurl: /slides
+markdown_ext: ""
+permalink: /:year/:month/:day/:title/
+
+sass:
+  style: compressed

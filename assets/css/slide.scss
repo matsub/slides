@@ -1,0 +1,16 @@
+---
+---
+figure.row{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    figcaption{ text-align: center; }
+}
+div.row{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    ol{ width: 40%; }
+    pre{ width: 60%; }
+}

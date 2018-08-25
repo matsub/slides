@@ -1,0 +1,28 @@
+---
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Slides | matsub</title>
+        <link rel="stylesheet" href="//www.matsub.net/assets/css/layout.css">
+        <link rel="stylesheet" href="//www.matsub.net/assets/css/design.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Slides</h1>
+        </header>
+        <section id="body">
+            {% for slide in site.posts %}
+            <a target="_blank" href="{{ site.baseurl }}{{ slide.url }}">
+                {% assign splitted_path = slide.url | split: '/' %}
+                <img src="{{ site.baseurl }}/assets/images/thumbnails/{{ splitted_path.last | append: '.png' }}">
+                <h1>{{ slide.title }}</h1>
+            </a>
+            {% endfor %}
+        </section>
+        {% include footer.html %}
+    </body>
+</html>
