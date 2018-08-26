@@ -52,11 +52,14 @@ theme: night
 
 
 ## `apiService.sql`
+<div class="split">
 <img height="300px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
-
-- 非同期処理を使っていない
-    - **DBにリクエストを送ってはいない** ことが察せられます
-- もっと上の部分で、クライアントにストアされているのでは
+<ul>
+<li>非同期処理を使っていない</li>
+<li>DBにリクエストを送ってはいないことが察せられます</li>
+<li>もっと上の部分で、クライアントにストアされているのでは</li>
+</ul>
+</div>
 
 
 ## ここで疑問

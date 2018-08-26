@@ -3,5 +3,12 @@
 .reveal {
     font-size: 160%;
     h1 { font-size: 200%; }
+    .split {
+        display: flex;
+        ul, img {
+            margin: 16px;
+            &:first-child { margin-left: 54px; }
+            &:last-child { margin-right: 54px; }
+        }
+    }
 }
-
