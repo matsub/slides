@@ -6,12 +6,11 @@ theme: night
 ---
 
 # 世界最悪の<br>ログイン処理コードを救う
-matsub.rk @PMOB
 
 
 
 ## 世界最悪のログイン処理コード
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="600px">
+<img height="500px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 
 ## 世の評判
@@ -28,7 +27,7 @@ matsub.rk @PMOB
 
 
 
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="600px">
+<img height="600px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 
 
@@ -43,17 +42,17 @@ matsub.rk @PMOB
 
 
 ## `apiService.sql`
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="600px">
+<img height="500px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 
 ## `apiService.sql`
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="400px">
+<img height="400px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 `apiService` クラスの静的メソッド？
 
 
 ## `apiService.sql`
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="400px">
+<img height="300px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 - 非同期処理を使っていない
     - **DBにリクエストを送ってはいない** ことが察せられます
@@ -75,7 +74,7 @@ matsub.rk @PMOB
 
 
 ### `$("#password").val()`
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png" height="600px">
+<img height="500px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-img.png">
 
 
 ### この `$` ってなんだ
@@ -248,7 +247,7 @@ $.cookie = async function(key, value, option) {
 
 
 ## 最後に
-<img src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-like.png" width="600px">
+<img width="600px" src="{{ site.baseurl }}/assets/images/LT-worst-login/worst-like.png">
 
 
 

@@ -1,16 +1,7 @@
 ---
 ---
-figure.row{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+.reveal {
+    font-size: 160%;
+    h1 { font-size: 200%; }
+}
 
-    figcaption{ text-align: center; }
-}
-div.row{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    ol{ width: 40%; }
-    pre{ width: 60%; }
-}

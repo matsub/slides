@@ -1,18 +1,23 @@
 ---
 ---
-section#body{
+#slides{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-around;
 
-    a{
-        padding: 16px;
-        width: 280px;
-        margin: 16px;
+    width: 94%;
 
-        text-align: center;
+    a {
+        display: block;
+        margin: 12px;
         text-decoration: none;
+    }
+
+    figure{
+        width: 240px;
+
+        margin: 0;
+        padding: 16px 16px 8px 16px;
 
         background: whitesmoke;
         border-radius: 8px;
@@ -20,7 +25,13 @@ section#body{
         transition: box-shadow 0.1s linear;
         &:hover{ box-shadow: 1px 1px 2px black inset; }
 
-        img{ width: 100%; height: 100%; }
-        h1{ font-size: 1.2em; }
+        img{ width: 100%; }
+        figcaption{
+            font-size: 1.2em;
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
 }
